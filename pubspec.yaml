@@ -14,7 +14,7 @@ description: A new Flutter project.
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -41,10 +41,30 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
-  #  - images/a_dot_ham.jpeg
+  assets:
+    - assets/erol.jpeg
+    - assets/caner.jpeg
+    - assets/mert.jpeg
+    - assets/dilruba.jpeg
+    - assets/onur.jpeg
+    - assets/okan.jpeg
+    - assets/burcu.jpeg
+    - assets/selahaddin.jpeg
+    - assets/sercan.jpeg
+    - assets/hadi.jpeg
+    - assets/flutter.png
+    - assets/android.jpg
+    - assets/fire.png
+    - assets/tensor.jpg
+    - assets/asistant.png
+    - assets/design.jpg
+    - assets/sean.png
+    - assets/murat.png
+    - assets/nilay.jpg
+  
 
+
+     
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
