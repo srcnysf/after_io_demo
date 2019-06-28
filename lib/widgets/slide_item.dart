@@ -30,7 +30,7 @@ class _SlideItemState extends State<SlideItem> {
       padding: EdgeInsets.only(top: 5.0, bottom: 5.0),
       child: Container(
         height: MediaQuery.of(context).size.height / 2.9,
-        width: MediaQuery.of(context).size.width / 1.2,
+        width: MediaQuery.of(context).size.width / 4.2,
         child: Card(
           shape: RoundedRectangleBorder( borderRadius: BorderRadius.circular(10.0)),
           elevation: 3.0,
