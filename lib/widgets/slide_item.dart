@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 import 'package:after_io_demo/util/const.dart';
 
 class SlideItem extends StatefulWidget {

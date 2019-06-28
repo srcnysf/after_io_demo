@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 import 'package:after_io_demo/screens/sessions.dart';
 import 'package:after_io_demo/util/tracks.dart';
 import 'package:after_io_demo/util/speakers.dart';
@@ -19,7 +19,7 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
     return Scaffold(
       appBar: PreferredSize(
         child: Padding(
-          padding: EdgeInsets.only(top: 30.0, left: 10.0, right: 10.0),
+          padding: EdgeInsets.only(top: 10.0, left: 10.0, right: 10.0),
           child: Card(
             elevation: 6.0,
             child: Container(
@@ -90,19 +90,10 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
                   child: Text(
                     "See all (${(speakers.length+1).toString()})",
                     style: TextStyle(
-//                      fontSize: 22,
-//                      fontWeight: FontWeight.w800,
                       color: Theme.of(context).accentColor,
                     ),
                   ),
                   onPressed: (){
-//                    Navigator.of(context).push(
-//                      MaterialPageRoute(
-//                        builder: (BuildContext context){
-//                          return DishesScreen();
-//                        },
-//                      ),
-//                    );
                   },
                 ),
               ],
@@ -150,8 +141,6 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
                   child: Text(
                     "See all (${(sessions.length+1).toString()})",
                     style: TextStyle(
-//                      fontSize: 22,
-//                      fontWeight: FontWeight.w800,
                       color: Theme.of(context).accentColor,
                     ),
                   ),
@@ -169,8 +158,6 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
             ),
 
             SizedBox(height: 10.0),
-
-            //Horizontal List here
             Container(
               height: MediaQuery.of(context).size.height/2.4,
               width: MediaQuery.of(context).size.width,
@@ -180,16 +167,16 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
                 scrollDirection: Axis.horizontal,
                 itemCount: sessions == null ? 0 :sessions.length,
                 itemBuilder: (BuildContext context, int index) {
-                  Map restaurant = sessions[index];
+                  Map session = sessions[index];
 
                   return Padding(
                     padding: EdgeInsets.only(right: 10.0),
                     child: SlideItem(
-                      img: restaurant["img"],
-                      name: restaurant["name"],
-                      title: restaurant["title"],
-                      time: restaurant["time"],
-                      track: restaurant["track"],
+                      img: session["img"],
+                      name: session["name"],
+                      title: session["title"],
+                      time: session["time"],
+                      track: session["track"],
                     ),
                   );
                 },
@@ -214,27 +201,16 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
                   child: Text(
                     "See all (${(tracks.length +1).toString()})",
                     style: TextStyle(
-//                      fontSize: 22,
-//                      fontWeight: FontWeight.w800,
                       color: Theme.of(context).accentColor,
                     ),
                   ),
                   onPressed: (){
-//                    Navigator.of(context).push(
-//                      MaterialPageRoute(
-//                        builder: (BuildContext context){
-//                          return DishesScreen();
-//                        },
-//                      ),
-//                    );
                   },
                 ),
               ],
             ),
 
             SizedBox(height: 10.0),
-
-            //Horizontal List here
             Container(
               height: MediaQuery.of(context).size.height/6,
               child: ListView.builder(
@@ -263,13 +239,11 @@ class _HomeState extends State<Home> with AutomaticKeepAliveClientMixin<Home>{
                               gradient: LinearGradient(
                                 begin: Alignment.topCenter,
                                 end: Alignment.bottomCenter,
-                                // Add one stop for each color. Stops should increase from 0 to 1
                                 stops: [0.2, 0.7],
                                 colors: [
                                   cat['color1'],
                                   cat['color2'],
                                 ],
-                                // stops: [0.0, 0.1],
                               ),
                             ),
                             height: MediaQuery.of(context).size.height/6,

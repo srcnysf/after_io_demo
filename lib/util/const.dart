@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 class Constants{
 
   static String appName = "After I/O Track";

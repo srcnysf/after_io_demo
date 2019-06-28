@@ -1,12 +1,12 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
+import 'package:flutter_web/material.dart';
+import 'package:flutter_web/services.dart';
 import 'package:after_io_demo/screens/main_screen.dart';
 import 'package:after_io_demo/util/const.dart';
 
 void main() async{
-  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]).then((_) {
+  // SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]).then((_) {
     runApp(MyApp());
-  });
+  // });
 }
 
 class MyApp extends StatefulWidget {

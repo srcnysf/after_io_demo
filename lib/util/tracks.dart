@@ -1,40 +1,40 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 
 List tracks = [
   {
     "name": "Android",
     "color1": Color.fromARGB(100, 0, 0, 0),
     "color2": Color.fromARGB(100, 0, 0, 0),
-    "img": "assets/android.jpg"
+    "img": "android.jpg"
   },
   {
     "name": "Google Asistant",
     "color1": Color.fromARGB(100, 0, 0, 0),
     "color2": Color.fromARGB(100, 0, 0, 0),
-    "img": "assets/asistant.png"
+    "img": "asistant.png"
   },
   {
     "name": "TensorFlow",
     "color1": Color.fromARGB(100, 0, 0, 0),
     "color2": Color.fromARGB(100, 0, 0, 0),
-    "img": "assets/tensor.jpg"
+    "img": "tensor.jpg"
   },
   {
     "name": "Flutter",
     "color1": Color.fromARGB(100, 0, 0, 0),
     "color2": Color.fromARGB(100, 0, 0, 0),
-    "img": "assets/flutter.png"
+    "img": "flutter.png"
   },
   {
     "name": "Design",
     "color1": Color.fromARGB(100, 0, 0, 0),
     "color2": Color.fromARGB(100, 0, 0, 0),
-    "img": "assets/design.jpg"
+    "img": "design.jpg"
   },
     {
     "name": "Firebase",
     "color1": Color.fromARGB(100, 0, 0, 0),
     "color2": Color.fromARGB(100, 0, 0, 0),
-    "img": "assets/fire.png"
+    "img": "fire.png"
   },
 ];

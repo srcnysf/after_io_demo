@@ -1,13 +1,13 @@
 List sessions = [
   {
-    "img": "assets/nilay.jpg",
+    "img": "nilay.jpg",
     "name": "Nilay Yener",
     "title": "Building Flutter Apps for iOS, Android and Web",
     "time": "14:00",
     "track": "Flutter"
   },
   {
-    "img": "assets/murat.png",
+    "img": "murat.png",
     "name": "Murat Yener",
     "title": "What's the new Android Q UI",
     "time": "12:00",
@@ -15,7 +15,7 @@ List sessions = [
 
   },
   {
-    "img": "assets/sean.png",
+    "img": "sean.png",
     "name": "Sean McQuillan",
     "title": "Introduction to Jetpack Compose",
     "time": "13:30",
@@ -23,21 +23,21 @@ List sessions = [
 
   },
   {
-    "img": "assets/hadi.jpeg",
+    "img": "hadi.jpeg",
     "name": "Hadi Tok",
     "title": "Coroutines with Architecture Components",
     "time": "15:35",
     "track": "Android"
   },
    {
-    "img": "assets/mert.jpeg",
+    "img": "mert.jpeg",
     "name": "Mert Ceyhan",
     "title": "ViewBindings",
     "time": "15:55",
     "track": "Android"
   },
   {
-    "img": "assets/caner.jpeg",
+    "img": "caner.jpeg",
     "name": "Resul Caner Yildirim",
     "title": "Next Generation Assistant",
     "time": "16:25",
@@ -45,21 +45,21 @@ List sessions = [
   },
 
   {
-    "img": "assets/erol.jpeg",
+    "img": "erol.jpeg",
     "name": "Erol Kaftanoglu",
     "title": "What's new in Firebase",
     "time": "17:00",
     "track": "Firebase"
   },
   {
-    "img": "assets/selahaddin.jpeg",
+    "img": "selahaddin.jpeg",
     "name": "Selahattin Kole",
     "title": "What's new in Web",
     "time": "17:20",
     "track": "Web"
   },
   {
-    "img": "assets/okan.jpeg",
+    "img": "okan.jpeg",
     "name": "Okan Aydin",
     "title": "Açılış ve Google I/O nasıl geçti",
     "time": "11:30",

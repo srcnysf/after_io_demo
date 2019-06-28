@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 import 'package:after_io_demo/screens/home.dart';
 
 class MainScreen extends StatefulWidget {

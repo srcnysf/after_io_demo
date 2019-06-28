@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 import 'package:after_io_demo/util/const.dart';
 
 class SessionItem extends StatefulWidget {
@@ -29,7 +29,7 @@ class _SessionItemState extends State<SessionItem> {
       padding: EdgeInsets.only(top: 5.0, bottom: 5.0),
       child: Container(
         height: MediaQuery.of(context).size.height/2.5,
-        width: MediaQuery.of(context).size.width,
+        width: MediaQuery.of(context).size.width/5,
         child: Card(
           shape: RoundedRectangleBorder( borderRadius: BorderRadius.circular(10.0)),
           elevation: 3.0,

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 import 'package:after_io_demo/util/session.dart';
 import 'package:after_io_demo/widgets/trending_item.dart';
 
